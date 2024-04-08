@@ -1,0 +1,244 @@
+/*--------------------------------------------
+    *             Estilo Página Inicial                      
+    *--------------------------------------------*/
+
+/*----- FONTES -----*/
+
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Resetando configuração padrão do CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f3ff;
+  color: #354766;
+}
+
+html {
+  font-family: Questrial;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*----- Header -----*/
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  max-width: 100%;
+  max-height: 64px;
+
+  background: #354766;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd9d2;
+
+  padding: 12px;
+  gap: 6rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 28px;
+
+  padding-left: 60%;
+  font-size: 20px;
+  color: white;
+  gap: 45%;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+
+  margin: auto;
+  padding-left: 50%;
+  gap: 5%;
+  max-height: 48px;
+}
+
+.cadastro {
+  font-family: Questrial;
+  font-size: 24px;
+
+  padding: 12px;
+  background: #f8fefd;
+  border-radius: 8%;
+}
+
+.entrar {
+  font-family: Questrial;
+  font-size: 24px;
+
+  padding: 12px;
+  background: #f8fefd;
+  border-radius: 8%;
+}
+
+/*----- HERO -----*/
+
+.fundoHero {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 40px;
+
+  background: #025951;
+}
+
+.textoHero {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.texto01 {
+  font-size: 90px;
+  font-weight: lighter;
+
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.texto02 {
+  font-size: 42px;
+  font-weight: lighter;
+
+  margin-left: 5%;
+  margin-top: 13%;
+}
+
+/*----- FUNÇÔES -----*/
+
+.fundoFuncao {
+  max-width: 86%;
+  margin-left: 7%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 40px;
+
+  gap: 18px;
+  padding: 3%;
+  background: #9dc9aa;
+}
+
+.linha01Funcao {
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.linha02Funcao {
+  margin: 2%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.funcao01 {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #354766;
+  background: #eff8ff;
+
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+.funcao02 {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #354766;
+  background: #eff8ff;
+
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+.funcao03 {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #354766;
+  background: #eff8ff;
+
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+.funcao04 {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #354766;
+  background: #eff8ff;
+
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+.funcao05 {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #354766;
+  background: #eff8ff;
+
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+.funcao06 {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #354766;
+  background: #eff8ff;
+
+  max-width: 30%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+  max-width: 100%;
+  max-height: 64px;
+
+  background-color: #354766;
+}
