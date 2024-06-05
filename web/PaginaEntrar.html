@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Descrição"
+      content="Gerenciador intuitivo de finanças pessoais"
+    />
+    <title>Login - Minhas Finanças</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Styles/Style-PaginaEntrar.css"
+    />
+  </head>
+
+  <body>
+    <!--------------------------------------------
+    *             Área de Cabeçalho                        
+    *-------------------------------------------->
+
+    <header>
+      <nav class="menu">
+        <a href="PaginaInicial.html" class="logo"> MinhasFinanças </a>
+
+        <section>
+          <ul class="links">
+            <li><a href="Links-Nav/Sobre.html">Sobre</a></li>
+            <li><a href="Links-Nav/Feedback.html">Feedback</a></li>
+            <li><a href="Links-Nav/Ajuda.html">Ajuda</a></li>
+          </ul>
+        </section>
+
+        <section class="login">
+          <a href="PaginaCadastro.html">
+            <input type="submit" value="Cadastro" class="btnLogin" />
+          </a>
+
+          <a href="PaginaEntrar.html">
+            <input type="submit" value="Login" class="btnLogin" />
+          </a>
+        </section>
+      </nav>
+    </header>
+
+    <!--------------------------------------------
+    *                 Área da Main                        
+    *-------------------------------------------->
+    <main>
+      <!------ Section Hero ------>
+
+      <section class="fundoHero">
+        <span class="logoHero">Minhas Finanças</span>
+        <h1 class="textoHero">Acabe com suas dores de cabeça agora!</h1>
+      </section>
+
+      <!------ AREA LOGIN ------>
+      <div>
+        <form class="areaLogin" id="formularioLogin">
+          <h1>Login</h1>
+          <p>Insira seus dados abaixo</p>
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Digite seu E-mail"
+            autofocus="true"
+          />
+
+          <label for="password">Senha</label>
+          <input type="password" id="senha" placeholder="Digite sua Senha" />
+
+          <input type="submit" value="Acessar" class="btnEntrar" />
+        </form>
+      </div>
+    </main>
+
+    <!------ Footer ------>
+    <footer>
+      <section class="footer">
+        <div class="redesFooter">
+          <h1>@Instagram</h1>
+          <h1 class="footerTwitter">@Twitter</h1>
+          <h2 class="footerSuporte">Suporte: 7070-7070</h2>
+        </div>
+      </section>
+    </footer>
+    <script src="/web/js/cadastrarScript.js"></script>
+    <script src="/web/js/entrarScript.js"></script>
+  </body>
+</html>

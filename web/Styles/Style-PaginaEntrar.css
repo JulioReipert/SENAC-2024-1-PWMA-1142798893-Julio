@@ -1,0 +1,242 @@
+/*----- FONTES -----*/
+
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Resetando configuração padrão do CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8fefd;
+  color: #354766;
+}
+
+html {
+  font-family: Questrial;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*----- Header -----*/
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  max-width: 100%;
+  max-height: 64px;
+
+  background: #142138;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd9d2;
+
+  padding: 12px;
+  gap: 6rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 28px;
+
+  padding-left: 60%;
+  font-size: 20px;
+  color: white;
+  gap: 45%;
+}
+
+.links :hover {
+  color: #7bc291;
+}
+header input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+
+  margin: auto;
+  margin-right: 65px;
+  gap: 5%;
+  max-height: 48px;
+}
+
+.btnCadastrar {
+  background-color: #ffd9d2;
+  color: #142138;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.btnCadastrar:hover {
+  transform: scale(1.05);
+  background-color: #354766;
+  color: #ffd9d2;
+}
+
+.btnLogin {
+  background-color: #ffd9d2;
+  color: #142138;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.btnLogin:hover {
+  transform: scale(1.05);
+  background-color: #354766;
+  color: #ffd9d2;
+}
+
+/*----- HERO -----*/
+main {
+  display: flex;
+  flex-direction: row;
+}
+.fundoHero {
+  background: #02413a;
+  padding-top: 10%;
+  padding-bottom: 7.3%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 55%;
+}
+
+.logoHero {
+  font-family: Raleway;
+  font-size: 148px;
+  font-weight: bold;
+  color: #ffd9d2;
+  padding-left: 22%;
+  padding-bottom: 3rem;
+}
+
+.textoHero {
+  font-family: Questrial;
+  font-size: 48px;
+  color: #ffd9d2;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+/*----- AREA LOGIN -----*/
+.areaLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 120px;
+  margin-left: 210px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+  height: 100%;
+}
+
+.areaLogin h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.areaLogin p {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.areaLogin input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.areaLogin input:focus {
+  border: 1px solid #7bc291;
+}
+
+.areaLogin label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btnEntrar {
+  background-color: #02413a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.btnEntrar:hover {
+  transform: scale(1.05);
+  background-color: #ffd9d2;
+  color: #142138;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+  max-width: 100%;
+  max-height: 64px;
+  padding: 12px;
+
+  color: #eff8ff;
+  background-color: #354766;
+}
+
+.redesFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footerSuporte {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerTwitter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 65%;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Descrição"
+      content="Gerenciador intuitivo de finanças pessoais"
+    />
+    <title>Minhas Finanças</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Styles/Style-PaginaPrincipal.css"
+    />
+  </head>
+
+  <body>
+    <!--------------------------------------------
+    *             Área de Cabeçalho                        
+    *-------------------------------------------->
+
+    <header>
+      <nav class="menu">
+        <a href="PaginaInicial.html" class="logo"> MinhasFinanças </a>
+
+        <section>
+          <ul class="links">
+            <li><a href="Links-Nav/Sobre.html">Sobre</a></li>
+            <li><a href="Links-Nav/Feedback.html">Feedback</a></li>
+            <li><a href="Links-Nav/Ajuda.html">Ajuda</a></li>
+          </ul>
+        </section>
+
+        <section class="login">
+          <a href="PaginaCadastro.html">
+            <input type="submit" value="Cadastro" class="btnLogin" />
+          </a>
+
+          <a href="PaginaEntrar.html">
+            <input type="submit" value="Entrar" class="btnCadastrar" />
+          </a>
+        </section>
+      </nav>
+    </header>
+
+    <!--------------------------------------------
+    *                 Área da Main                        
+    *-------------------------------------------->
+
+    <main>
+      <h1>Gerenciador de Despesas</h1>
+      <form id="expenseForm">
+        <input type="text" id="description" placeholder="Descrição" />
+        <input type="number" id="amount" placeholder="Valor" />
+        <button type="submit" onclick="addExpense()">Adicionar Despesa</button>
+      </form>
+      <button onclick="renderExpenses()">Listar Despesas</button>
+      <ul id="expenseList">
+        <!-- Aqui serão listadas as despesas -->
+      </ul>
+
+      <script src="script.js"></script>
+    </main>
+    <!------ Footer ------>
+    <footer>
+      <section class="footer">
+        <div class="redesFooter">
+          <h1>@Instagram</h1>
+          <h1 class="footerTwitter">@Twitter</h1>
+          <h2 class="footerSuporte">Suporte: 7070-7070</h2>
+        </div>
+      </section>
+    </footer>
+    <script src="/web/js/PaginaPrincipal.js"></script>
+  </body>
+</html>
